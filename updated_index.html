@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- For Responsive -->
+	<meta charset="utf-8">
+	<title>RedStore | The Best E-Commerce Platform in Middle East</title>
+	<link rel="icon" href="img/logo.png">  <!-- To make icon in browser tab -->
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/updated_mystyle.css">
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"> -->
+</head>
+<body>
+
+
+	<!-- Start Banner -->
+
+		<section class="banner" id="home">
+			<div class="textBx">
+				<h2>Give Your Workout A<br><span>New Style!</span></h2>
+				<h3>Success isn't always about greatness. It's about consistency.<br>Consistent hard work gains success. Greatness will come.</h3>
+				<a href="#about" class="btn">Explore Now &#8594;</a>
+			</div>
+		</section>
+	<!-- End Banner -->
+
+	<!-- Start NavBar -->
+		<header>    
+			<a href="#" class="logo"><span>Red</span>Store</a>
+			<div class="toggle" onclick="togglemenu();"></div>
+			<ul class="menu">
+				<li class="activeColor"><a href="#home" onclick="togglemenu();">Home</a></li>
+				<li><a href="#products" onclick="togglemenu();">Products</a></li>
+				<li><a href="#about" onclick="togglemenu();">About</a></li>
+				<li><a href="#contact" onclick="togglemenu();">Contact</a></li>
+				<li><a href="#account" onclick="togglemenu();">Account</a></li>
+			</ul>
+		</header>
+	<!-- End NavBar -->
+
+
+	<!-- Featured Categories Section -->
+
+	<section class="featuredCateg">
+		<div class="container">
+			<div class="card">
+				<div class="imgBx">
+					<img src="img/product-1.png" width="180" height="150">
+					<h2>Nike Shoes</h2>
+				</div>
+				<div class="content">
+					<div class="size">
+						<h3>Size :</h3>
+						<span>7</span>
+						<span>8</span>
+						<span>9</span>
+						<span>10</span>
+					</div>
+					<div class="color">
+						<h3>Color :</h3>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="#">Buy Now</a>
+				</div>
+			</div>
+			<div class="card">
+				<div class="imgBx">
+					<img src="img/product-6.png" width="200" height="150">
+					<h2>Nike Shoes</h2>
+				</div>
+				<div class="content">
+					<div class="size">
+						<h3>Size :</h3>
+						<span>7</span>
+						<span>8</span>
+						<span>9</span>
+						<span>10</span>
+					</div>
+					<div class="color">
+						<h3>Color :</h3>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="#">Buy Now</a>
+				</div>
+			</div>
+			<div class="card">
+				<div class="imgBx">
+					<img src="img/product-2.png">
+					<h2>Nike Shoes</h2>
+				</div>
+				<div class="content">
+					<div class="size">
+						<h3>Size :</h3>
+						<span>7</span>
+						<span>8</span>
+						<span>9</span>
+						<span>10</span>
+					</div>
+					<div class="color">
+						<h3>Color :</h3>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="#">Buy Now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Products Gallery Section -->
+
+	<h2 class="title">Latest Products</h2>
+
+	<section class="filterList">
+		<ul>
+			<li class="list activeColor" data-filter="all">All</li>
+			<li class="list" data-filter="t-shirt">T-Shirts</li>
+			<li class="list" data-filter="watch">Watches</li>
+			<li class="list" data-filter="shoe">Shoes</li>
+			<li class="list" data-filter="sock">Socks</li>
+			<li class="list" data-filter="trouser">Trousers</li>
+		</ul>
+	</section>
+
+	<div class="smallContainer">
+		<div class="row">
+				<div class="col-4 trouser itemBox">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>	
+				<div class="col-4 shoe itemBox">
+					<img src="img/product-5.jpg" alt="">
+					<h4>Gray Boot Shoes</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 t-shirt itemBox">
+					<img src="img/product-6.jpg" alt="">
+					<h4>Black Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<i class="far fa-star"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 sock itemBox">
+					<img src="img/product-7.jpg" alt="">
+					<h4>Cotton Socks</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 sock itemBox hidden">
+					<img src="img/product-7.jpg" alt="">
+					<h4>Cotton Socks</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 sock itemBox hidden">
+					<img src="img/product-7.jpg" alt="">
+					<h4>Cotton Socks</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 sock itemBox hidden">
+					<img src="img/product-7.jpg" alt="">
+					<h4>Cotton Socks</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 watch itemBox hidden">
+					<img src="img/product-8.jpg" alt="">
+					<h4>Metal Watch</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 watch itemBox hidden">
+					<img src="img/product-9.jpg" alt="">
+					<h4>Black Watch</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 shoe itemBox hidden">
+					<img src="img/product-10.jpg" alt="">
+					<h4>Mixed Color Sportive Shoes</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 shoe itemBox hidden">
+					<img src="img/product-11.jpg" alt="">
+					<h4>Grey Shoes</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 trouser itemBox hidden">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 trouser itemBox hidden">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 trouser itemBox hidden">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 trouser itemBox hidden">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+				<div class="col-4 trouser itemBox hidden">
+					<img src="img/product-12.jpg" alt="">
+					<h4>Black Trouser</h4>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p>$50.00 / <span class="lastprice">$75.00</span></p>
+				</div>
+			</div>
+			<div class="heading">
+				<button class="btn show-more">Show More</button>
+			</div>
+		</div>
+	
+	<!-- Offer Section -->
+
+		<div class="offer">
+			<div class="smallContainer">
+				<div class="row">
+					<div class="col-2">
+						<img src="img/exclusive.png" class="offer-img object" alt="exclusive-offer">
+					</div>
+					<div class="col-2">
+						<p>Exclusively Available on <span>RedStore</span></p>
+						<h1>Smart Band 4</h1>
+						<small>The Mi Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small><br>
+						<a href="" class="btn">Buy Now &#8594;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Testimonials Section -->
+		<section class="testiContain">
+			<div class="testim">
+				<h2 class="title" style="color: #FFF;">What Our Clients Say!</h2>
+				<!-- Swiper -->
+				<div class="swiper-container">
+				   	<div class="swiper-wrapper">
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-1.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Shrouk Emam<br><span>Sales Executer</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-2.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Amr El-Sayed<br><span>Web Designer</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-3.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Omnia Tharwet<br><span>HR Director</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-1.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Alaa Ahmed<br><span>Accountant</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-2.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Omar Zaghlol<br><span>Machine Learning Engineer</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-3.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Shereen Hassan<br><span>Event Speaker</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				     	<div class="swiper-slide">
+				     		<div class="card">
+				     			<div class="layer"></div>
+				     			<div class="content">
+				     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     				tempor incididunt.</p>
+				     				<div class="imgBx">
+				     					<img src="img/user-1.png">
+				     				</div>
+				     				<div class="details">
+				     					<h2>Noha Fawzy<br><span>Web Designer</span></h2>
+				     				</div>
+				     			</div>
+				     		</div>
+				     	</div>
+				    </div>
+				    <!-- Add Pagination -->
+    				<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Brands Section -->
+
+		<h2 class="title">Our Sponsers</h2>
+		<div class="brands">
+			<div class="smallContainer">
+				<div class="row">
+					<div class="col-5 object">
+						<img src="img/logo-godrej.png" alt="Brand">
+					</div>
+					<div class="col-5 object">
+						<img src="img/logo-oppo.png" alt="Brand">
+					</div>
+					<div class="col-5 object">
+						<img src="img/logo-philips.png" alt="Brand">
+					</div>
+					<div class="col-5 object">
+						<img src="img/logo-paypal.png" alt="Brand">
+					</div>
+					<div class="col-5 object">
+						<img src="img/logo-coca-cola.png" alt="Brand">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download Our App</h3>
+						<p>Download App for Android and ios mobile phone</p>
+						<div class="app-logo">
+							<img src="img/play-store.png">
+							<img src="img/app-store.png">
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="img/logo-white.png" alt="">
+						<p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of Sports Accessible to The Many.</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li><a href="">Coupons</a></li>
+							<li><a href="">Blog Post</a></li>
+							<li><a href="">Return Policy</a></li>
+							<li><a href="">Join Affiliate</a></li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow Us</h3>
+						<ul>
+							<li><a href="">Facebook</a></li>
+							<li><a href="">Linked In</a></li>
+							<li><a href="">Instagram</a></li>
+							<li><a href="">YouTube</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- <hr /> -->
+				<p class="copyright">Copyright &copy; 2021 - Ahmed Hafez</p>
+			</div>
+		</div>
+
+
+
+		<!-- Start Cart BUTTON -->
+		<div class="cartButton" title="Your Cart">
+			<a href="#">
+				<i class="fas fa-shopping-cart fa-lg fa-fw" title="Your Cart"></i>
+			</a>
+			<!-- <a href="#" style="bottom:40%;">
+				<i class="fas fa-shopping-cart fa-lg fa-fw" title="Your Cart"></i>
+			</a>
+			<a href="#" style="bottom:30%;">
+				<i class="fas fa-shopping-cart fa-lg fa-fw" title="Your Cart"></i>
+			</a>
+			<a href="#" style="bottom:60%;">
+				<i class="fas fa-shopping-cart fa-lg fa-fw" title="Your Cart"></i>
+			</a>
+			<a href="#" style="bottom:70%;">
+				<i class="fas fa-shopping-cart fa-lg fa-fw" title="Your Cart"></i>
+			</a> -->
+		</div>
+		<!-- End Cart BUTTON -->
+
+		<!-- Start TO TOP BUTTON -->
+			<div id='toTop'>
+				<i class="fas fa-chevron-up fa-lg totop-icon"></i>
+			</div>
+		<!-- End TO TOP BUTTON -->
+
+	<script src="js/all.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/updated_myscript.js"></script>
+</body>
+</html>
