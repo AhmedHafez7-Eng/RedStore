@@ -13,6 +13,7 @@
 }
 body{
 	background: radial-gradient(#FFF, #ffd6d6);
+	overflow-x : hidden;
 }
 section{
 	padding: 100px;
