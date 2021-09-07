@@ -11,6 +11,9 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+body{
+	overflow-x: hidden;
+}
 ul{
 	list-style-type: none;
 }
